@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    font-family: Teko, sans-serif;
+}
+
+h1 {
+    margin: 50px 0 5px 0;
+    font-size: 150px;
+    color: rgba(2, 144, 188, 0.926);
+    text-shadow: 6px 6px 8px rgb(2, 2, 2);
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 5px;
+    height: 30px;
+    width: 500px;
+    font-size: 1.5rem;
+    border-color: rgb(0, 0, 0);
+}
+
+button {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 30px;
+}
+
+#cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.btn {
+
+    font-size: 2rem;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    margin: 0;
+    background-color: rgb(97, 159, 140);
+    border-radius: 10px;
+
+}
+
+#find {
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 15px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+}
+
+#find:hover {
+    color: white;
+    color: rgba(2, 144, 188, 0.926);
+}
+
+.btn:hover {
+    background-color: rgb(226, 228, 230);
+}
+
+button.enabled {
+    opacity: 1;
+}
+
+p {
+    font-size: 2rem;
+    color: rgb(200, 0, 0);
+}
+
+#enterName {
+    padding: 0px 10px 0px 0px;
+    color: rgb(3, 22, 39);
+    font-size: 40px;
+}
+
+#valueCont,#whosTurn,#userCont,#oppNameCont{
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  text-shadow: 2px 2px 5px rgb(233, 233, 233);
+  -webkit-text-stroke: 0.5px rgb(139, 37, 37);
+}
+
+#oppNameCont{
+  position: absolute;
+  right: 0;
+}
